@@ -1,0 +1,60 @@
+/*color palette link: https://colorpalettes.net/color-palette-3780/ */
+*{
+    box-sizing: border-box;
+}
+@media (min-width: 576px);
+body {
+   background-color: #dce9ef;
+}
+.container{
+    background-color: white;
+    opacity: 1;
+    flex-grow: 8;
+}
+.hero{
+    background-image: url(https://bit.ly/2RJ7pEv) !important;
+    opacity: .9;
+    color: white !important;
+}
+.test{
+    background-image: url(https://bit.ly/2KR3kNV);
+    min-height: 80px;
+    min-width: 80px;
+    max-height: 800px;
+    max-width: 800px;
+}
+.btn{
+    background-color: #dce9ef;
+    color: #00356a;
+    border-color: #dce9ef;
+}
+button a:hover{
+    background-color: #00356a !important;
+}
+.nav-link{
+    color: #00356a;
+}
+.nav-link li a:hover{
+    color: white;
+    background-color: black;
+}
+.headshot{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border-style: solid thin black;
+    right: 50%;
+    top: 50%;
+    display: inline-block;
+}
+.headerimage{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    border-style: solid thin black;
+    right: 50%;
+    top: 50%;
+    display: inline;
+    float: left;
+    padding: 0px 0px 6px 0px;
+}
